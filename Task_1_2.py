@@ -53,4 +53,7 @@ def get_shop_list_by_dishes(dishes, person_count):
                                 dict_3[dict_1.get('ingredient_name')] = list_2[1]
     pprint(dict_3)
 
+pprint(get_data(), sort_dicts=False, width=100)
+print()
+print()
 get_shop_list_by_dishes(['Омлет', 'Фахитос'], 2)
